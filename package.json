@@ -4,7 +4,8 @@
   "description": "React using parcel bundler from scratch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"parcel index.html"
+    "start":"npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "author": "Amish",
   "license": "ISC",
@@ -15,5 +16,10 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": [
+    "last 10 version",
+    "> 1%",
+    "not dead"
+  ]
 }
